@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/sweetalert2.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- start calculator -->
+<div class="container">
+    <div class="over-lay">
+        <div class="box signin">
+                <input class="signinUser" type="text" placeholder="User Name">
+                <input class="signinPassword" type="password" placeholder="Password">
+                <input class="btn-in signin" type="button" value="Sgin In">
+                <input class="btn-in signup" type="button" value="Sgin Up">
+                <input class="btn-in reset" type="button" value="Reset Password">
+        </div>
+        <div class="box signup">
+                <input class="signupUser" type="text" placeholder="User Name">
+                <input class="signupPassword" type="password" placeholder="Password">
+                <input class="btn-in sign-up" type="button" value="Sgin Up">
+                <input class="btn-in back" type="button" value="Back To Sgin In">
+        </div>
+        <div class="box resetpass">
+                <input class="resetsearch" type="text" placeholder="User Name To Reset Password">
+                <input class="newPassInput" type="password" placeholder="Write New Password">
+                <input class="btn-in search" type="button" value="Reset">
+                <input class="btn-in back" type="button" value="Back To Sgin In">
+        </div>
+    </div>
+    <div class="calculator">
+        <form >
+            <div class="result">
+                <input type="text" name="result">
+            </div>
+            <div class="btn">
+                <input type="button" value="AC">
+                <input type="button" value="DE">
+                <input type="button" value=".">
+                <input type="button" value="/">
+            </div>
+            <div class="btn">
+                <input type="button" value="7">
+                <input type="button" value="8">
+                <input type="button" value="9">
+                <input type="button" value="*">
+            </div>
+            <div class="btn">
+                <input type="button" value="4">
+                <input type="button" value="5">
+                <input type="button" value="6">
+                <input type="button" value="-">
+            </div>
+            <div class="btn">
+                <input type="button" value="1">
+                <input type="button" value="2">
+                <input type="button" value="3">
+                <input type="button" value="+">
+            </div>
+            <div class="btn">
+                <input type="button" value="00">
+                <input type="button" value="0">
+                <input class="eq" type="button" value="=">
+            </div>
+        </form>
+    </div>
+</div>
+<!-- end calculator -->
+
+    <script src="js/sweetalert2.all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
